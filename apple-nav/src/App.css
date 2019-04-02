@@ -2,6 +2,31 @@
   text-align: center;
 }
 
+.App .nav {
+  background: #232323;
+  padding: 20px 0;
+}
+
+.App .nav-links {
+  max-width: 920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+  height: 42px;
+}
+
+.App .nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.App .NavWrapper {
+  width: 820px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
