@@ -28,7 +28,9 @@ const SubNav = props => {
             return (
               <Link
                 key={product.id}
-                to={`/:category/${_.toLower(product.item.replace(/\s/g, ''))}`}
+                to={`/${props.match.params.category}/${_.toLower(
+                  product.item.replace(/\s/g, '')
+                )}`}
               >
                 {product.item}
               </Link>
