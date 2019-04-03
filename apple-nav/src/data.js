@@ -4,55 +4,55 @@ export const data = [
   {
     id: uuid(),
     category: 'Mac',
-    items: [
+    devices: [
       {
         id: uuid(),
-        link: 'MacBook',
+        item: 'MacBook',
         img: ''
       },
       {
         id: uuid(),
-        link: 'MacBook Air',
+        item: 'MacBook Air',
         img: ''
       },
       {
         id: uuid(),
-        link: 'MacBook Pro',
+        item: 'MacBook Pro',
         img: ''
       },
       {
         id: uuid(),
-        link: 'iMac',
+        item: 'iMac',
         img: ''
       },
       {
         id: uuid(),
-        link: 'iMac Pro',
+        item: 'iMac Pro',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Mac Pro',
+        item: 'Mac Pro',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Mac mini',
+        item: 'Mac mini',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Accesories',
+        item: 'Accesories',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Mojave',
+        item: 'Mojave',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Compare',
+        item: 'Compare',
         img: ''
       }
     ]
@@ -60,50 +60,50 @@ export const data = [
   {
     id: uuid(),
     category: 'iPad',
-    items: [
+    devices: [
       {
         id: uuid(),
-        link: 'iPad Pro',
+        item: 'iPad Pro',
         img: ''
       },
       {
         id: uuid(),
-        link: 'iPad Air',
+        item: 'iPad Air',
         img: ''
       },
       {
         id: uuid(),
-        link: 'iPad',
+        item: 'iPad',
         img: ''
       },
       {
         id: uuid(),
-        link: 'iPad mini',
+        item: 'iPad mini',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Compare',
+        item: 'Compare',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Apple Pencil',
+        item: 'Apple Pencil',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Smart Keyboard',
+        item: 'Smart Keyboard',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Accesories',
+        item: 'Accesories',
         img: ''
       },
       {
         id: uuid(),
-        link: 'iOS12',
+        item: 'iOS12',
         img: ''
       }
     ]
@@ -111,45 +111,45 @@ export const data = [
   {
     id: uuid(),
     category: 'iPhone',
-    items: [
+    devices: [
       {
         id: uuid(),
-        link: 'iPhone Xs',
+        item: 'iPhone Xs',
         img: ''
       },
       {
         id: uuid(),
-        link: 'iPhone Xr',
+        item: 'iPhone Xr',
         img: ''
       },
       {
         id: uuid(),
-        link: 'iPhone 8',
+        item: 'iPhone 8',
         img: ''
       },
       {
         id: uuid(),
-        link: 'iPhone 7',
+        item: 'iPhone 7',
         img: ''
       },
       {
         id: uuid(),
-        link: 'iOS12',
+        item: 'iOS12',
         img: ''
       },
       {
         id: uuid(),
-        link: 'AirPods',
+        item: 'AirPods',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Accesories',
+        item: 'Accesories',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Compare',
+        item: 'Compare',
         img: ''
       }
     ]
@@ -157,45 +157,45 @@ export const data = [
   {
     id: uuid(),
     category: 'Watch',
-    items: [
+    devices: [
       {
         id: uuid(),
-        link: 'Apple Watch Series 4',
+        item: 'Apple Watch Series 4',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Apple Watch Nike+',
+        item: 'Apple Watch Nike+',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Apple Watch Hermes',
+        item: 'Apple Watch Hermes',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Apple Watch Series 3',
+        item: 'Apple Watch Series 3',
         img: ''
       },
       {
         id: uuid(),
-        link: 'watchOS',
+        item: 'watchOS',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Bands',
+        item: 'Bands',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Accesories',
+        item: 'Accesories',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Compare',
+        item: 'Compare',
         img: ''
       }
     ]
@@ -203,35 +203,35 @@ export const data = [
   {
     id: uuid(),
     category: 'TV',
-    items: [
+    devices: [
       {
         id: uuid(),
-        link: 'Apple TV app',
+        item: 'Apple TV app',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Apple TV+',
+        item: 'Apple TV+',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Apple TV 4K',
+        item: 'Apple TV 4K',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Apple TV HD',
+        item: 'Apple TV HD',
         img: ''
       },
       {
         id: uuid(),
-        link: 'AirPlay',
+        item: 'AirPlay',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Accesories',
+        item: 'Accesories',
         img: ''
       }
     ]
@@ -239,40 +239,40 @@ export const data = [
   {
     id: uuid(),
     category: 'Music',
-    items: [
+    devices: [
       {
         id: uuid(),
-        link: 'Apple Music',
+        item: 'Apple Music',
         img: ''
       },
       {
         id: uuid(),
-        link: 'iTunes',
+        item: 'iTunes',
         img: ''
       },
       {
         id: uuid(),
-        link: 'HomePod',
+        item: 'HomePod',
         img: ''
       },
       {
         id: uuid(),
-        link: 'AirPods',
+        item: 'AirPods',
         img: ''
       },
       {
         id: uuid(),
-        link: 'iPod Touch',
+        item: 'iPod Touch',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Music Accesories',
+        item: 'Music Accesories',
         img: ''
       },
       {
         id: uuid(),
-        link: 'Gif Cards',
+        item: 'Gif Cards',
         img: ''
       }
     ]

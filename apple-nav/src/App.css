@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .App .nav {
@@ -23,8 +25,13 @@
 
 .App .NavWrapper {
   width: 820px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+.App .NavWrapper a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .App-logo {

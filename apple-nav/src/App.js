@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {Route, NavLink} from 'react-router-dom';
-import NavWrapper from './components/NavWrapper';
+import SubNav from './components/SubNav';
 import Home from './components/Home';
+
 import {data} from './data';
 
 import './App.css';
@@ -19,12 +20,22 @@ class App extends Component {
     return (
       <div className="App">
         <div className="nav">
-          <div className="nav-links">
+          <div className="NavWrapper">
             <NavLink to="/">Home</NavLink>
-            <NavWrapper data={this.state.data} />
+            {this.state.data.map(data => {
+              return (
+                <NavLink key={data.id} to={`/${data.category.toLowerCase()}`}>
+                  {data.category}
+                </NavLink>
+              );
+            })}
           </div>
         </div>
         <Route exact path="/" component={Home} />
+        <Route
+          path="/:category"
+          render={props => <SubNav {...props} data={this.state.data} />}
+        />
       </div>
     );
   }
