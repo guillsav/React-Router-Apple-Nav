@@ -1,0 +1,27 @@
+.SubNav {
+  background: rgb(242, 235, 235);
+  width: 100%;
+  height: 100px;
+}
+
+.SubNav .SubNav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 auto;
+  margin-top: 37px;
+  width: 35%;
+}
+
+.SubNav a {
+  text-decoration: none;
+  color: #262626;
+  font-size: 12px;
+  margin: 0 2%;
+}
+
+.Global {
+  background: #fff;
+  width: 100%;
+  height: 100px;
+}
